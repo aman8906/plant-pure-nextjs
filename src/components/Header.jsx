@@ -21,17 +21,7 @@ export default function Header() {
       <div className="w-full bg-[#f8f8f8] border-t-[4px] border-[#0a963d]">
         <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-5 flex items-center justify-between">
 
-          {/* MOBILE LOGO */}
-          <div className="flex items-center">
-            <Image
-              src="https://plantpure.in/wp-content/uploads/2025/09/Plant-Pure-logo.png"
-              alt="Plant Pure"
-              width={85}
-              height={120}
-              className="object-contain"
-            />
-          </div>
-
+          
           {/* DESKTOP SEARCH */}
           <div className="hidden md:flex items-center w-[380px] h-[52px] bg-white border border-[#3a3a3a] rounded-full overflow-hidden shadow-[0_2px_6px_rgba(0,0,0,0.15)]">
 
@@ -48,6 +38,17 @@ export default function Header() {
               <span>Search</span>
             </button>
           </div>
+          {/* MOBILE LOGO */}
+          <div className="flex items-center">
+            <Image
+              src="https://plantpure.in/wp-content/uploads/2025/09/Plant-Pure-logo.png"
+              alt="Plant Pure"
+              width={85}
+              height={120}
+              className="object-contain"
+            />
+          </div>
+
 
           {/* RIGHT */}
           <div className="flex items-center gap-5 md:gap-8">
