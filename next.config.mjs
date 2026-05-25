@@ -1,6 +1,28 @@
-/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} 
 const nextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "plantpure.in",
+        pathname: "/wp-content/uploads/**",
+      },
+    ],
+  },
 };
 
-export default nextConfig;
+export default nextConfig;*/
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "plantpure.in",
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;
