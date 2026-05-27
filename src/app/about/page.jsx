@@ -13,7 +13,7 @@ import {
 const principles = [
   {
     id: 1,
-     image: "http://www.w3.org/2000/svg",
+     image: "/natural-icon.png",
     title: "Nature-Based Ingredients",
     desc:
       "Every PlantPure product is made with traditional herbal ingredients known for their ability to nourish and restore hair health.",
@@ -22,7 +22,7 @@ const principles = [
   {
     id: 2,
     image:
-      "https://plantpure.in/wp-content/uploads/2025/01/chemical-free.png",
+      "/chemical-icon.png",
     title: "Chemical-Free Formulas",
     desc:
       "We never use ammonia, parabens, or other harsh chemicals. Our focus is on pure, gentle care that supports scalp and skin health.",
@@ -31,7 +31,7 @@ const principles = [
   {
     id: 3,
     image:
-      "https://plantpure.in/wp-content/uploads/2025/01/hair-care.png",
+      "/safe-icon.png",
     title: "3. Healthy Hair Focus",
     desc:
       "PlantPure products promote stronger hair growth, reduce hair fall, and improve texture — all through the power of plants.",
@@ -158,7 +158,7 @@ export default function AboutPage() {
                 <img
   src={item.image}
   alt={item.title}
-  className="w-[110px] h-[110px] object-contain"
+  className="w-[710px] h-[110px] object-contain"
 />
               </div>
 

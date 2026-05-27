@@ -7,10 +7,10 @@ import {
 
 export default function ContactPage() {
   return (
-    <main className="w-full bg-[#f7f7f7] min-h-screen overflow-hidden">
+    <main className="w-full bg-[#f6f6f6] overflow-hidden">
 
       {/* TOP BANNER */}
-      <section className="w-full bg-[#049234] py-10 md:py-16 lg:py-20">
+      <section className=" bg-[#019331] py-10 md:py-14">
         
         <div className="max-w-[1280px] mx-auto text-center px-4">
           
